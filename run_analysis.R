@@ -67,5 +67,5 @@ View(groupData)
 ###
 #Please change the working directory to the one where you want to 
 setwd("C:/Users/AV01TR2/Documents/getcleandata")
-write.csv(groupData, "resultData.csv")
+write.table(groupData, "resultData.txt", row.names=FALSE)
 
